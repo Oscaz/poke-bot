@@ -10,7 +10,7 @@ public class AutoWiki {
     public static void main(String[] args) {
         JDABuilder builder = new JDABuilder(AccountType.BOT);
 
-        builder.setToken("Mzc0NjcyMDIwNzc4MTIzMjY0.DUzBXA.1ETwneiK-SVE8Vw2FirfYLP7XH0");
+        builder.setToken("hidden");
         builder.setAutoReconnect(true);
 
         builder.setStatus(OnlineStatus.ONLINE);
